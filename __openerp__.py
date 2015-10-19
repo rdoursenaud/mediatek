@@ -1,11 +1,13 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "mediatek",
+    'name': "Mediatek",
 
     'summary': "Personal media loan manager",
 
+    # Always RST
     'description': """
         Manages personal loans of medias.
+
         Just like a mediatek ;)
     """,
 
@@ -24,11 +26,11 @@
     # always loaded
     'data': [
         # 'security/ir.model.access.csv',
-        # 'views.xml',
+        'views.xml',
         # 'templates.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
-        # 'demo.xml',
+        'demo.xml',
     ],
 }

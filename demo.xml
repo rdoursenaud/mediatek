@@ -26,5 +26,13 @@
         <!--     <field name="value">40</field> -->
         <!--   </record> -->
         <!--  -->
+        <record id="object0" model="mediatek.document">
+            <field name="name">Bel-Ami</field>
+            <field name="date">1885-10-18</field>
+        </record>
+        <record id="object1" model="mediatek.document">
+            <field name="name">Regular Expressions</field>
+            <field name="date">2006-08-18</field>
+        </record>
     </data>
 </openerp>
